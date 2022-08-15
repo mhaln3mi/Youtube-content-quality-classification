@@ -9,7 +9,7 @@ def yt_api(id):
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyArAXXQzyo8XBs5o5lm5aKL8_aRB_YDG1M"
+    DEVELOPER_KEY = "PUT YOUR API KEY HERE"
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
