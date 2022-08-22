@@ -4,7 +4,7 @@ from urllib import response
 import pandas as pd 
 
 from googleapiclient.discovery import build
-youtube = build('youtube', 'v3', developerKey='AIzaSyArAXXQzyo8XBs5o5lm5aKL8_aRB_YDG1M')
+youtube = build('youtube', 'v3', developerKey=os.environ.get('api_key'))
 
 
 
