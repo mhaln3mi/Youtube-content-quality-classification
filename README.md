@@ -61,8 +61,11 @@ For the Unsupervised part, I clustered the data using K-Cluster into two cluster
 The code for this section can be found in `src` folder inside `unupervisedML.ipynb` file.
 
 ### Final model
+After labeling the data, I used the new dataset to build the final model. After trying different models, I went with Logistic Regression as it performed the best.
 
+The code for this section can be found in `src` folder inside `semisupervisedML.ipynb` file.
 
+All the models can be found inside the `Model` folder
 ## Conclusion
 Trying to classify videos based on the features we have turned to be a difficult job for multiple reaonse such as:
 
