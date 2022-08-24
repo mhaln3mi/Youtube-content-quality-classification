@@ -37,7 +37,7 @@ I fetched the data using Youtube API, you can find the code I used to do that in
 
 
 ## Data Collection and Pre-Processing
-As mentioned above, I couldn't find any dataset online that can help me in my project so I decided to collect them myself using Youtube API. After collecting the data, I cleaned it and removed and duplicates or null values. The code for this section can be found in `src` folder inside `semiSupervisedML.ipynb` file.
+As mentioned above, I couldn't find any dataset online that can help me in my project so I decided to collect them myself using Youtube API. After collecting the data, I cleaned it and removed and duplicates or null values. The code for this section can be found in `Code.ipynb` file.
 
 ## Exploratory Data Analysis(EDA)
 The code for this section can be found in `src` folder inside `semiSupervisedML.ipynb` file. 
