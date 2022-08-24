@@ -53,7 +53,7 @@ Because I couldn't label all the data myself as it's a time and resources intens
 ### Semisupervised
 For the Semisupervised part, I built an initial model using the small dataset I labeled, then used it to label the rest of the data. After trying different models, I went with Logistic Regression as it performed the best.
 
-The code for this section can be found in `src` folder inside `semiSupervisedML.ipynb` file. 
+The code for this part can be found in `code.ipynb` file. 
 
 ### Unsupervised
 For the Unsupervised part, I clustered the data using K-Cluster into two clusters as I had two labels.
