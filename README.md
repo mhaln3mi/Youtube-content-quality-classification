@@ -59,3 +59,47 @@ The code for this section can be found in `src` folder inside `semiSupervisedML.
 For the Unsupervised part, I clustered the data using K-Cluster into two clusters as I had two labels.
 
 The code for this section can be found in `src` folder inside `unupervisedML.ipynb` file.
+
+### Final model
+
+
+## Conclusion
+Trying to classify videos based on the features we have turned to be a difficult job for multiple reaonse such as:
+
+- The dataset used for the initial model is too small 
+- The features we have don't cover everything and can only go so far
+
+Never the less. here are the best models for our project were:
+
+- Logistic regression 
+- KNN 
+- XGBClassifier
+
+### Limitations & problems
+There are several limits and problems with this project, here are some of them:
+
+- Bias in the dataset 
+- Limited dataset especially for non reputable videos
+- Need more features to improve the model
+- The number of labels need to be increased
+
+### Challenges
+During this project, I faced several challenges like:
+
+- Limited time 
+- Watching and labeling a lot of videos
+- Not enough resources online
+- Microsoft Excel 
+
+### Future development
+I didn’t have enough time to do everything I wished for this project, here are some of the future developments I have in mind:
+
+- Apply it on different categories of videos like news
+- Use computer vision on the video and thumbnail 
+- Look for collaborators
+- Use NLP on the description and title
+- Make a website or an extension to use the model
+
+
+
+
