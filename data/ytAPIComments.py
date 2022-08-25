@@ -59,7 +59,7 @@ for id_code in code_lang:
 
         sql_vids = sql_vids.append(df, ignore_index = True)
 
-        sql_vids.to_csv(r'C:\Users\wled3\ytdf17.csv', index=False, header=False)
+        sql_vids.to_csv('comments.csv')
     
     scrape_comments_with_replies()
 
