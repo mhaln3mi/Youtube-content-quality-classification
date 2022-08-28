@@ -154,7 +154,7 @@ def get_channel_stats(youtube, channel_ids):
 
 
 
-with open('RFmodelInitial' , 'rb') as m:
+with open('RFmodelFinal' , 'rb') as m:
    model = pickle.load(m)
 
 
@@ -224,7 +224,12 @@ def home():
     #model prediction
 
     pred = model.predict(dff)
-    return render_template('result1.html', data=pred[0])
+
+    if pred[0] == 1:
+        return render_template('result1.html')
+    else:
+        return render_template('result2.html')
+
 
 
 

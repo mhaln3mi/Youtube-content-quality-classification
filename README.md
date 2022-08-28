@@ -51,55 +51,56 @@ Because I couldn't label all the data myself as it's a time and resources intens
 - Unsupervised
 
 ### Semisupervised
-For the Semisupervised part, I built an initial model using the small dataset I labeled, then used it to label the rest of the data. After trying different models, I went with Logistic Regression as it performed the best.
+For the Semisupervised part, I built an initial model using the small dataset I labeled, then used it to label the rest of the data. After trying different models, I went with Logistic Regression as it performed good and showed less signs of overfitting.
 
 The code for this part can be found in `code.ipynb` file. 
 
 ### Unsupervised
-For the Unsupervised part, I clustered the data using K-Cluster into two clusters as I had two labels.
+For the Unsupervised part, I clustered the data using K-Cluster into two clusters as I had two labels. The results were disappointing but it gave me an idea of increasing the labels to more than 2.
 
 The code for this section can be found in `src` folder inside `unupervisedML.ipynb` file.
 
 ### Final model
-After labeling the data, I used the new dataset to build the final model. After trying different models, I went with Logistic Regression as it performed the best.
+After labeling the data, I used the new dataset to build the final model. After trying different models, I went with Random Forest as it performed the best.
 
 The code for this section can be found in `src` folder inside `semisupervisedML.ipynb` file.
 
 All the models can be found inside the `Model` folder
+
 ## Conclusion
-Trying to classify videos based on the features we have turned to be a difficult job for multiple reaonse such as:
+Trying to classify videos based on the features we have turned out to be a difficult job for multiple reaonse such as:
 
 - The dataset used for the initial model is too small 
 - The features we have don't cover everything and can only go so far
 
-Never the less. here are the best models for our project were:
+Never the less. here are the best models for our project:
 
 - Logistic regression 
-- KNN 
-- XGBClassifier
+- Random Forest 
 
 ### Limitations & problems
 There are several limits and problems with this project, here are some of them:
 
 - Bias in the dataset 
-- Limited dataset especially for non reputable videos
+- Limited and small dataset especially for non reputable videos
 - Need more features to improve the model
 - The number of labels need to be increased
 
 ### Challenges
 During this project, I faced several challenges like:
 
-- Limited time 
-- Watching and labeling a lot of videos
+- Limited time (less than 2 weeks)
+- Watching and labeling a lot of videos manually
 - Not enough resources online
 - Microsoft Excel 
 
 ### Future development
 I didn’t have enough time to do everything I wished for this project, here are some of the future developments I have in mind:
 
+- Collect more data
 - Apply it on different categories of videos like news
 - Use computer vision on the video and thumbnail 
-- Look for collaborators
+- Look for collaborators (if you are interested feel free to contact me)
 - Use NLP on the description and title
 - Make a website or an extension to use the model
 

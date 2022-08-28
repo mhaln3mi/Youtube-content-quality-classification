@@ -9,7 +9,11 @@
 <body>
     <h1>Welcome to Youtube Content Quality predictor (Beta)</h1>
 
-    <h2>This website's goal is to help you in knowing if a youtube tutorial is good or bad. It's still in the development phase so incase you don't agree with the result, feel free to add the video id and label(good or bad) in this google sheet</h2>
+    <h2>This website's goal is to help you in knowing if a youtube tutorial is good or bad.
+        It's still in the development phase so incase you don't agree with the result,
+        feel free to add the video and channel ids, and label (good or bad) in this 
+        <a href="https://docs.google.com/spreadsheets/d/1TsFP7BbI0ZgAm4FOTOn51sjflYD-aCYEUEcQbXMBQMk/edit?usp=sharing" target="_blank">google sheet</a>
+    </h2>
 
     <form method="POST", action="{{url_for('home')}}">
         <input name="vid-id" type="text" value="Please enter the video Id">
