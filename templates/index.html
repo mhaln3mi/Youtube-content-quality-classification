@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Youtube Content Quality predictor (Beta)</h1>
+
+    <h2>This website's goal is to help you in knowing if a youtube tutorial is good or bad. It's still in the development phase so incase you don't agree with the result, feel free to add the video id and label(good or bad) in this google sheet</h2>
+
+    <form method="POST", action="{{url_for('home')}}">
+        <input name="vid-id" type="text" value="Please enter the video Id">
+        <input name="ch-id" type="text" value="Please enter the Channel Id"/>
+        <input type="submit" value='predict!' class="btns">
+    </form>
+</body>
+</html>
