@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
     <title>Document</title>
 </head>
 <body>
@@ -16,9 +17,23 @@
     </h2>
 
     <form method="POST", action="{{url_for('home')}}">
-        <input name="vid-id" type="text" value="Please enter the video Id">
-        <input name="ch-id" type="text" value="Please enter the Channel Id"/>
-        <input type="submit" value='predict!' class="btns">
+        <div class="container">
+  
+            <div class="demo-flex-spacer"></div>
+          
+            <div class="webflow-style-input">
+              <input class="" name="vid-id" type="text" placeholder="Please enter the video Id"></input>
+            </div>
+            <div class="webflow-style-input">
+                <input class="" name="ch-id" type="text" placeholder="Please enter the Channel Id"></input>
+            </div>
+            <div class="webflow-style-input">
+                <input type="submit" value='Predict!' class="btns">
+            </div>
+          
+            <div class="demo-flex-spacer"></div>
+          
+          </div>
     </form>
 </body>
 </html>
