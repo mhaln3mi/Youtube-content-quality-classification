@@ -14,7 +14,7 @@ import isodate
 from sklearn.preprocessing import LabelEncoder
 
 
-youtube = build('youtube', 'v3', developerKey='AIzaSyArAXXQzyo8XBs5o5lm5aKL8_aRB_YDG1M')
+youtube = build('youtube', 'v3', developerKey='API_KEY')
 
 
 

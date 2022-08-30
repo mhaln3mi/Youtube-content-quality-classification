@@ -1,5 +1,5 @@
 # Youtube Content Quality Classification
-Capstone project for MISK-DSI 
+Capstone project for MISK-DSI 2022
 
 ## Introduction
 In this project, my goal is to create a Machine Learning model to classify Youtube videos based on content quality into two classes: `Reputable`, and `non reputable`. My aim is to make the process of finding good tutorials easier for everyday users and researchers.
@@ -37,10 +37,10 @@ I fetched the data using Youtube API, you can find the code I used to do that in
 
 
 ## Data Collection and Pre-Processing
-As mentioned above, I couldn't find any dataset online that can help me in my project so I decided to collect them myself using Youtube API. After collecting the data, I cleaned it and removed and duplicates or null values. The code for this section can be found in `Code.ipynb` file.
+As mentioned above, I couldn't find any dataset online that can help me in my project so I decided to collect them myself using Youtube API. After collecting the data, I cleaned it and removed and duplicates or null values. The code for this section can be found in `code.ipynb` file in `src` folder.
 
 ## Exploratory Data Analysis(EDA)
-The code for this section can be found in `src` folder inside `semiSupervisedML.ipynb` file. 
+The code for this section can be found in `src` folder inside `code.ipynb` file. 
 
 Here I did basic EDA to understand the data types, and the correlation between my data. I found that my data was unbalnced so I needed to do oversampling to fix it. I also found that the highest correlation between my features and target `Label` was with `subscribers` and `totalViews`
 
@@ -53,7 +53,7 @@ Because I couldn't label all the data myself as it's a time and resources intens
 ### Semisupervised
 For the Semisupervised part, I built an initial model using the small dataset I labeled, then used it to label the rest of the data. After trying different models, I went with Logistic Regression as it performed good and showed less signs of overfitting.
 
-The code for this part can be found in `code.ipynb` file. 
+The code for this part can be found in `code.ipynb` file in the `src` folder. 
 
 ### Unsupervised
 For the Unsupervised part, I clustered the data using K-Cluster into two clusters as I had two labels. The results were disappointing but it gave me an idea of increasing the labels to more than 2.
