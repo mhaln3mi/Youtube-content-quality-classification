@@ -9,7 +9,7 @@ To try out the demo, go to [this link](https://yt-content-quality.herokuapp.com/
 <br/>
 - Input the channel Id which can be found using the inspect tool in your browser. First right click on the page and choose inspect, after that click CRTL + F to search the HTML code. Search for channelid you should be able to see a channelid inside a `meta` tag, next to it you will find `content` copy the value inside the content.
 <br/>
-<img src='imgs/chid.JPG'>
+<img src='imgs/chid.JPG' style="padding-top=2rem">
 <br/>
 
 ## Introduction
