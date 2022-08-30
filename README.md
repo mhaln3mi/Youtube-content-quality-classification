@@ -15,6 +15,8 @@ To try out the demo, go to [this link](https://yt-content-quality.herokuapp.com/
 
 - Click predict to see the classification of the video
 
+<br/>
+
 ## Introduction
 In this project, my goal is to create a Machine Learning model to classify Youtube videos based on content quality into two classes: `Reputable`, and `non reputable`. My aim is to make the process of finding good tutorials easier for everyday users and researchers.
 
