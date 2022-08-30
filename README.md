@@ -1,6 +1,16 @@
 # Youtube Content Quality Classification
 Capstone project for MISK-DSI 2022
 
+## Demo
+To try out the demo, go to [this link](https://yt-content-quality.herokuapp.com/) and follow these instructions:
+
+- Input the video Id which can be found in the URL after `watch?v=`
+<img src='imgs/urlid.JPG'>
+<br/>
+- Input the channel Id which can be found using the inspect tool in your browser. First right click on the page and choose inspect, after that click CRTL + F to search the HTML code. Search for channelid you should be able to see a channelid inside a `<meta>` tag, next to it you will find `content="ID"` copy the value inside the content.
+<img src='imgs/channelid.JPG'>
+<br/>
+
 ## Introduction
 In this project, my goal is to create a Machine Learning model to classify Youtube videos based on content quality into two classes: `Reputable`, and `non reputable`. My aim is to make the process of finding good tutorials easier for everyday users and researchers.
 
